@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "webbie/meteoblue-api",
+    "description": "Laravel Meteoblue API",
     "keywords": [
-        ":vendor_name",
+        "webbie",
         "laravel",
-        ":package_slug"
+        "meteoblue-api"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/webbie/meteoblue-api",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "webbie",
+            "email": "ivan@isur.net",
             "role": "Developer"
         }
     ],
@@ -35,13 +35,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src/",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories/"
+            "Webbie\\MeteoblueApi\\": "src/",
+            "Webbie\\MeteoblueApi\\Database\\Factories\\": "database/factories/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests/",
+            "Webbie\\MeteoblueApi\\Tests\\": "tests/",
             "Workbench\\App\\": "workbench/app/"
         }
     },
@@ -63,10 +63,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "Webbie\\MeteoblueApi\\MeteoblueApiServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "MeteoblueApi": "Webbie\\MeteoblueApi\\Facades\\MeteoblueApi"
             }
         }
     },

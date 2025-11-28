@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Webbie\MeteoblueApi\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class MeteoblueApiCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'meteoblue-api';
 
     public $description = 'My command';
 
